@@ -13,6 +13,7 @@ $font-size:calc(1em + 4vw);
 	padding: 0;
 }
 .wrap-header {
+	display:none;
 	height: 700px;
 	background:url(../images/slider/1.jpg) no-repeat center center;
 	background-attachment: fixed;
@@ -58,7 +59,9 @@ align-items:center;
 	p {
 		margin-top: 8em;
 	}
+
 }
+
 nav {
 	background-color: $golub;
     display:flex;
